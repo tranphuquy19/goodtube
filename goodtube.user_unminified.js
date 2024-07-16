@@ -5195,7 +5195,13 @@
 			'proxy': true,
 			'url': 'automatic'
 		},
-
+		// youtube.innova-tech.io.vn
+		{
+			'name': 'Chicken (VN)',
+			'type': 2,
+			'proxy': true,
+			'url': 'youtube.innova-tech.io.vn'
+		},
 		// HD SERVERS
 		// --------------------------------------------------------------------------------
 		// FAST
