@@ -5119,6 +5119,7 @@
 	let goodTube_otherDataServersIndex_subtitles = 0;
 	let goodTube_otherDataServersIndex_storyboard = 0;
 	let goodTube_otherDataServers = [
+		'https://youtube.innova-tech.io.vn',
 		'https://yt.artemislena.eu',
 		'https://invidious.perennialte.ch',
 		'https://invidious.private.coffee',
@@ -5204,213 +5205,219 @@
 		// HD SERVERS
 		// --------------------------------------------------------------------------------
 		// FAST
-		{
-			'name': 'Anubis (DE)',
-			'type': 3,
-			'proxy': true,
-			'url': 'https://pipedapi.r4fo.com'
-		},
-		// FAST
-		{
-			'name': 'Ra (US)',
-			'type': 3,
-			'proxy': true,
-			'url': 'https://pipedapi.us.projectsegfau.lt'
-		},
-		// FAST
-		{
-			'name': 'Sphynx (JP)',
-			'type': 2,
-			'proxy': true,
-			'url': 'https://invidious.jing.rocks'
-		},
+		// {
+		// 	'name': 'Anubis (DE)',
+		// 	'type': 3,
+		// 	'proxy': true,
+		// 	'url': 'https://pipedapi.r4fo.com'
+		// },
 		// // FAST
 		// {
-		// 	'name': 'Obsidian (AT)',
+		// 	'name': 'Ra (US)',
 		// 	'type': 3,
 		// 	'proxy': true,
-		// 	'url': 'https://pipedapi.leptons.xyz'
+		// 	'url': 'https://pipedapi.us.projectsegfau.lt'
 		// },
-		// FAST
-		{
-			'name': 'Acid (US)',
-			'type': 2,
-			'proxy': true,
-			'url': 'https://invidious.incogniweb.net'
-		},
-		// FAST
-		{
-			'name': 'Sphere (US)',
-			'type': 3,
-			'proxy': true,
-			'url': 'https://pipedapi.darkness.services'
-		},
-		// FAST
-		{
-			'name': 'Phoenix (US)',
-			'type': 3,
-			'proxy': true,
-			'url': 'https://pipedapi.drgns.space'
-		},
-		// // MEDIUM
+		// // FAST
 		// {
-		// 	'name': 'Hunter (NL)',
-		// 	'type': 3,
-		// 	'proxy': true,
-		// 	'url': 'https://pipedapi.ducks.party'
-		// },
-		// MEDIUM
-		{
-			'name': 'Sapphire (IN)',
-			'type': 3,
-			'proxy': true,
-			'url': 'https://pipedapi.in.projectsegfau.lt'
-		},
-		// MEDIUM
-		{
-			'name': 'Space (DE)',
-			'type': 3,
-			'proxy': true,
-			'url': 'https://pipedapi.smnz.de'
-		},
-		// MEDIUM
-		{
-			'name': 'Orchid (DE)',
-			'type': 3,
-			'proxy': true,
-			'url': 'https://api.piped.yt'
-		},
-		// MEDIUM
-		{
-			'name': 'Emerald (DE)',
-			'type': 3,
-			'proxy': true,
-			'url': 'https://pipedapi.phoenixthrush.com'
-		},
-		// MEDIUM
-		{
-			'name': '420 (FI)',
-			'type': 2,
-			'proxy': true,
-			'url': 'https://invidious.privacyredirect.com'
-		},
-		// MEDIUM
-		{
-			'name': 'Onyx (FR)',
-			'type': 2,
-			'proxy': true,
-			'url': 'https://invidious.fdn.fr'
-		},
-		// MEDIUM
-		{
-			'name': 'Indigo (FI)',
-			'type': 2,
-			'proxy': true,
-			'url': 'https://iv.datura.network'
-		},
-		// // MEDIUM
-		// {
-		// 	'name': 'Andromeda (FI)',
-		// 	'type': 3,
-		// 	'proxy': true,
-		// 	'url': 'https://pipedapi-libre.kavin.rocks'
-		// },
-		// // MEDIUM
-		// {
-		// 	'name': 'Lilith (INT)',
-		// 	'type': 3,
-		// 	'proxy': true,
-		// 	'url': 'https://pipedapi.syncpundit.io'
-		// },
-		// MEDIUM
-		{
-			'name': 'Basilisk (DE)',
-			'type': 3,
-			'proxy': true,
-			'url': 'https://pipedapi.adminforge.de'
-		},
-		// MEDIUM
-		{
-			'name': 'Golem (AT)',
-			'type': 3,
-			'proxy': true,
-			'url': 'https://schaunapi.ehwurscht.at'
-		},
-
-		// // SLOW
-		// {
-		// 	'name': 'Centaur (FR)',
-		// 	'type': 3,
-		// 	'proxy': true,
-		// 	'url': 'https://api.piped.projectsegfau.lt'
-		// },
-		// // SLOW
-		// {
-		// 	'name': 'Cypher (FR)',
-		// 	'type': 3,
-		// 	'proxy': true,
-		// 	'url': 'https://api.piped.privacydev.net'
-		// },
-		// // SLOW
-		// {
-		// 	'name': 'T800 (DE)',
+		// 	'name': 'Sphynx (JP)',
 		// 	'type': 2,
 		// 	'proxy': true,
-		// 	'url': 'https://invidious.protokolla.fi'
+		// 	'url': 'https://invidious.jing.rocks'
 		// },
-		// // SLOW
+		// // // FAST
+		// // {
+		// // 	'name': 'Obsidian (AT)',
+		// // 	'type': 3,
+		// // 	'proxy': true,
+		// // 	'url': 'https://pipedapi.leptons.xyz'
+		// // },
+		// // FAST
 		// {
-		// 	'name': 'Wasp (DE)',
+		// 	'name': 'Acid (US)',
 		// 	'type': 2,
 		// 	'proxy': true,
-		// 	'url': 'https://iv.melmac.space'
+		// 	'url': 'https://invidious.incogniweb.net'
 		// },
-		// // SLOW
+		// // FAST
 		// {
-		// 	'name': 'Platinum (TR)',
+		// 	'name': 'Sphere (US)',
 		// 	'type': 3,
 		// 	'proxy': true,
-		// 	'url': 'https://pipedapi.ngn.tf'
+		// 	'url': 'https://pipedapi.darkness.services'
 		// },
-		// // SLOW
+		// // FAST
 		// {
-		// 	'name': 'Minotaur (NL)',
+		// 	'name': 'Phoenix (US)',
 		// 	'type': 3,
 		// 	'proxy': true,
-		// 	'url': 'https://pipedapi.astartes.nl'
+		// 	'url': 'https://pipedapi.drgns.space'
+		// },
+		// // // MEDIUM
+		// // {
+		// // 	'name': 'Hunter (NL)',
+		// // 	'type': 3,
+		// // 	'proxy': true,
+		// // 	'url': 'https://pipedapi.ducks.party'
+		// // },
+		// // MEDIUM
+		// {
+		// 	'name': 'Sapphire (IN)',
+		// 	'type': 3,
+		// 	'proxy': true,
+		// 	'url': 'https://pipedapi.in.projectsegfau.lt'
+		// },
+		// // MEDIUM
+		// {
+		// 	'name': 'Space (DE)',
+		// 	'type': 3,
+		// 	'proxy': true,
+		// 	'url': 'https://pipedapi.smnz.de'
+		// },
+		// // MEDIUM
+		// {
+		// 	'name': 'Orchid (DE)',
+		// 	'type': 3,
+		// 	'proxy': true,
+		// 	'url': 'https://api.piped.yt'
+		// },
+		// // MEDIUM
+		// {
+		// 	'name': 'Emerald (DE)',
+		// 	'type': 3,
+		// 	'proxy': true,
+		// 	'url': 'https://pipedapi.phoenixthrush.com'
+		// },
+		// // MEDIUM
+		// {
+		// 	'name': '420 (FI)',
+		// 	'type': 2,
+		// 	'proxy': true,
+		// 	'url': 'https://invidious.privacyredirect.com'
+		// },
+		// // MEDIUM
+		// {
+		// 	'name': 'Onyx (FR)',
+		// 	'type': 2,
+		// 	'proxy': true,
+		// 	'url': 'https://invidious.fdn.fr'
+		// },
+		// // MEDIUM
+		// {
+		// 	'name': 'Indigo (FI)',
+		// 	'type': 2,
+		// 	'proxy': true,
+		// 	'url': 'https://iv.datura.network'
+		// },
+		// // // MEDIUM
+		// // {
+		// // 	'name': 'Andromeda (FI)',
+		// // 	'type': 3,
+		// // 	'proxy': true,
+		// // 	'url': 'https://pipedapi-libre.kavin.rocks'
+		// // },
+		// // // MEDIUM
+		// // {
+		// // 	'name': 'Lilith (INT)',
+		// // 	'type': 3,
+		// // 	'proxy': true,
+		// // 	'url': 'https://pipedapi.syncpundit.io'
+		// // },
+		// // MEDIUM
+		// {
+		// 	'name': 'Basilisk (DE)',
+		// 	'type': 3,
+		// 	'proxy': true,
+		// 	'url': 'https://pipedapi.adminforge.de'
+		// },
+		// // MEDIUM
+		// {
+		// 	'name': 'Golem (AT)',
+		// 	'type': 3,
+		// 	'proxy': true,
+		// 	'url': 'https://schaunapi.ehwurscht.at'
 		// },
 
-		// 360p SERVERS
-		// --------------------------------------------------------------------------------
-		{
-			'name': '360p - Amethyst (DE)',
-			'type': 1,
-			'proxy': true,
-			'url': 'https://yt.artemislena.eu'
-		},
-		{
-			'name': '360p - Goblin (AU)',
-			'type': 1,
-			'proxy': false,
-			'url': 'https://invidious.perennialte.ch'
-		},
+		// // // SLOW
+		// // {
+		// // 	'name': 'Centaur (FR)',
+		// // 	'type': 3,
+		// // 	'proxy': true,
+		// // 	'url': 'https://api.piped.projectsegfau.lt'
+		// // },
+		// // // SLOW
+		// // {
+		// // 	'name': 'Cypher (FR)',
+		// // 	'type': 3,
+		// // 	'proxy': true,
+		// // 	'url': 'https://api.piped.privacydev.net'
+		// // },
+		// // // SLOW
+		// // {
+		// // 	'name': 'T800 (DE)',
+		// // 	'type': 2,
+		// // 	'proxy': true,
+		// // 	'url': 'https://invidious.protokolla.fi'
+		// // },
+		// // // SLOW
+		// // {
+		// // 	'name': 'Wasp (DE)',
+		// // 	'type': 2,
+		// // 	'proxy': true,
+		// // 	'url': 'https://iv.melmac.space'
+		// // },
+		// // // SLOW
+		// // {
+		// // 	'name': 'Platinum (TR)',
+		// // 	'type': 3,
+		// // 	'proxy': true,
+		// // 	'url': 'https://pipedapi.ngn.tf'
+		// // },
+		// // // SLOW
+		// // {
+		// // 	'name': 'Minotaur (NL)',
+		// // 	'type': 3,
+		// // 	'proxy': true,
+		// // 	'url': 'https://pipedapi.astartes.nl'
+		// // },
+
+		// // 360p SERVERS
+		// // --------------------------------------------------------------------------------
 		// {
-		// 	'name': '360p - Jade (SG)',
+		// 	'name': '360p - Amethyst (DE)',
 		// 	'type': 1,
 		// 	'proxy': true,
-		// 	'url': 'https://vid.lilay.dev'
+		// 	'url': 'https://yt.artemislena.eu'
+		// },
+		// {
+		// 	'name': '360p - Goblin (AU)',
+		// 	'type': 1,
+		// 	'proxy': false,
+		// 	'url': 'https://invidious.perennialte.ch'
+		// },
+		// // {
+		// // 	'name': '360p - Jade (SG)',
+		// // 	'type': 1,
+		// // 	'proxy': true,
+		// // 	'url': 'https://vid.lilay.dev'
+		// // },
+		// {
+		// 	'name': '360p - Nymph (AT)',
+		// 	'type': 1,
+		// 	'proxy': true,
+		// 	'url': 'https://invidious.private.coffee'
+		// },
+		// {
+		// 	'name': '360p - Raptor (US)',
+		// 	'type': 1,
+		// 	'proxy': true,
+		// 	'url': 'https://invidious.drgns.space'
 		// },
 		{
-			'name': '360p - Nymph (AT)',
-			'type': 1,
+			'name': 'IT (VN)',
+			'type': 2,
 			'proxy': true,
-			'url': 'https://invidious.private.coffee'
-		},
-		{
-			'name': '360p - Raptor (US)',
-			'type': 1,
-			'proxy': true,
-			'url': 'https://invidious.drgns.space'
+			'url': 'https://youtube.innova-tech.io.vn'
 		},
 		// {
 		// 	'name': '360p - Velvet (CL)',
