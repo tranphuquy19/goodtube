@@ -1,0 +1,62 @@
+{
+  "name": "goodtube",
+  "version": "5.001",
+  "description": "Loads Youtube videos from different sources. Also removes ads, shorts, etc.",
+  "main": "src/index.mjs",
+  "scripts": {
+    "prebuild": "rimraf dist",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "NODE_ENV=production /bin/bash ./src/bin/build.sh",
+    "build:stat": "STAT=true npx webpack",
+    "build:watch": "NODE_ENV=development npx webpack --watch",
+    "build:prod:watch": "npx webpack --watch",
+    "build:ts": "npx tsc",
+    "build:ts:watch": "npx tsc -w",
+    "lint": "npx eslint .",
+    "lint:fix": "npx eslint . --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/goodtube4u/goodtube.git"
+  },
+  "keywords": [
+    "youtube",
+    "goodtube"
+  ],
+  "author": "goodtube4u@hotmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/goodtube4u/goodtube/issues"
+  },
+  "homepage": "https://gitlab.com/goodtube4u/goodtube#readme",
+  "devDependencies": {
+    "@types/jquery": "^3.5.14",
+    "@types/video.js": "^7.3.58",
+    "@typescript-eslint/eslint-plugin": "^5.46.1",
+    "@typescript-eslint/parser": "^5.46.1",
+    "clean-webpack-plugin": "^4.0.0",
+    "eslint": "^8.29.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-airbnb-typescript": "^17.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.1",
+    "rimraf": "^3.0.2",
+    "terser-webpack-plugin": "^5.3.6",
+    "ts-loader": "^9.4.2",
+    "ts-node": "^10.9.1",
+    "tslint": "^6.1.3",
+    "typescript": "^4.9.4",
+    "webpack": "^5.78.0",
+    "webpack-bundle-analyzer": "^4.7.0",
+    "webpack-cli": "^5.0.1"
+  },
+  "dependencies": {
+    "axios": "^1.6.1",
+    "axios-cache-interceptor": "^0.10.7",
+    "jquery": "^3.7.0",
+    "video.js": "^8.16.1"
+  }
+}

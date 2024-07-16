@@ -1,0 +1,15 @@
+{
+  "name": "Goodtube",
+  "namespace": "https://github.com/goodtube4u/goodtube",
+  "description": "Loads Youtube videos from different sources. Also removes ads, shorts, etc",
+  "match": [
+    "https://gitlab.com/*/pipeline_schedules*",
+    "https://*.gitlab.com/*/pipeline_schedules*"
+  ],
+  "grant": ["GM_addStyle"],
+  "run-at": "document-end",
+  "updateURL": "https://github.com/goodtube4u/goodtube/-/raw/main/dist/goodtube.user.js",
+  "downloadURL": "https://github.com/goodtube4u/goodtube/-/raw/main/dist/goodtube.user.js",
+  "supportURL": "https://github.com/goodtube4u/goodtube/issues",
+  "license": "ISC"
+}
