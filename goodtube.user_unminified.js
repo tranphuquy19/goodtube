@@ -5414,10 +5414,16 @@
 		// 	'url': 'https://invidious.drgns.space'
 		// },
 		{
-			'name': 'IT (VN)',
+		    	'name': 'IT-i (VN)',
 			'type': 2,
 			'proxy': true,
 			'url': 'https://youtube.innova-tech.io.vn'
+		},
+	        {
+	            	'name': 'IT-p (VN)',
+	            	'type': 3,
+		    	'proxy': true,
+		    	'url': 'https://pipedapi.innova-tech.io.vn'
 		},
 		// {
 		// 	'name': '360p - Velvet (CL)',
