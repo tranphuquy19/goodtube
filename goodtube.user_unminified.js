@@ -7,8 +7,8 @@
 // @match        https://*.youtube.com/*
 // @icon         https://cdn-icons-png.flaticon.com/256/1384/1384060.png
 // @run-at       document-start
-// @updateURL    https://github.com/goodtube4u/goodtube/raw/main/goodtube.user.js
-// @downloadURL  https://github.com/goodtube4u/goodtube/raw/main/goodtube.user.js
+// @updateURL    https://github.com/tranphuquy19/goodtube/raw/main-2/goodtube.user.js
+// @downloadURL  https://github.com/tranphuquy19/goodtube/raw/main-2/goodtube.user.js
 // @noframes
 // ==/UserScript==
 
@@ -18,7 +18,7 @@
 	/* Config
 	------------------------------------------------------------------------------------------ */
 	// Set your github location for loading assets, etc
-	let goodTube_github = 'https://raw.githubusercontent.com/goodtube4u/GoodTube/main';
+	let goodTube_github = 'https://raw.githubusercontent.com/tranphuquy19/GoodTube/main-2';
 
 	// Select how long to wait before trying to load something again (in milliseconds)
 	let goodTube_retryDelay = 500;
